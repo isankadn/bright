@@ -43,8 +43,8 @@ body {
 
     .login {
       .login-button {
-        box-shadow: 0 2px 1px 0 $brand-color;
-        background: #6a52a3;
+        box-shadow: 0 2px 1px 0 $green;
+        background: $brand-color;
         color: #ffffff;
       }
     }
@@ -84,13 +84,13 @@ body {
         .btn-login-action {
           color: #ffffff;
         }
-        box-shadow: 0 2px 1px 0 $brand-color;
-        background: #6a52a3;
+        box-shadow: 0 2px 1px 0 $green;
+        background: $brand-color;
         color: #ffffff;
       }
       .register-button {
-        box-shadow: 0 2px 1px 0 $brand-color;
-        background: #6a52a3;
+        box-shadow: 0 2px 1px 0 $green;
+        background: $brand-color;
         color: #ffffff;
       }
     }
@@ -2142,8 +2142,8 @@ header.header-main {
 
          .login {
            .login-button {
-             box-shadow: 0 2px 1px 0 $brand-color;
-             background: #6a52a3;
+             box-shadow: 0 2px 1px 0 $green;
+             background: $brand-color;
              color: #ffffff;
            }
          }
@@ -2183,13 +2183,13 @@ header.header-main {
              .btn-login-action {
                color: #ffffff;
              }
-             box-shadow: 0 2px 1px 0 $brand-color;
-             background: #6a52a3;
+             box-shadow: 0 2px 1px 0 $green;
+             background: $brand-color;
              color: #ffffff;
            }
            .register-button {
-             box-shadow: 0 2px 1px 0 $brand-color;
-             background: #6a52a3;
+             box-shadow: 0 2px 1px 0 $green;
+             background: $brand-color;
              color: #ffffff;
            }
          }

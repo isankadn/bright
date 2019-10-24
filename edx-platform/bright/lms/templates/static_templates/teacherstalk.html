@@ -1,0 +1,20 @@
+## mako
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%namespace name='static' file='../static_content.html'/>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Teacher' Talk")}</%block>
+
+<div class="page-heading">
+    <h1>${_("Teacher' Talk")}</h1>
+</div>
+<section class="static-content">
+    <div class="grid-manual grid-container">
+        <div class="inner-container">
+            <div class="row">
+                <iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PLCIhvS7-KhrEjaY7uJ8DUb1LqNLtE69yx" frameborder="0" allowfullscreen>
+            </div>
+        </div>
+    </div>
+</section>
